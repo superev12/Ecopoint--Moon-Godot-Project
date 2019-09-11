@@ -1,5 +1,6 @@
 #include "Main.h"
 #include "Tile.h"
+#include "TileData.h"
 
 using namespace godot;
 
@@ -18,4 +19,5 @@ extern "C" void GDN_EXPORT godot_nativescript_init(void * handle)
 	Godot::nativescript_init(handle);
 	register_class<Main>();
 	register_class<Tile>();
+	register_class<TileData>();
 }
